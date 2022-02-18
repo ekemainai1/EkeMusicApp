@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+          android:title="@string/list_search"
+          android:icon="@drawable/ic_search"
+          android:orderInCategory="1"
+          app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="2"
+        android:title="@string/settings"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_sleep"
+        android:orderInCategory="3"
+        android:title="@string/sleep"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="4"
+        android:title="@string/scan"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="5"
+        android:title="@string/share"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_art"
+        android:orderInCategory="6"
+        android:title="@string/Art"
+        app:showAsAction="collapseActionView"/>
+
+
+</menu>
