@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/arttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:text="@string/select_background"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"/>
+
+
+    <ImageButton
+        android:id="@+id/g_a"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@null"
+        android:contentDescription="@string/ben3n"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/player_ground"/>
+
+    <ImageButton
+        android:id="@+id/g_b"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:contentDescription="@string/ben3n"
+        app:srcCompat="@drawable/player_ground_a"/>
+
+    <ImageButton
+        android:id="@+id/g_c"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@null"
+        android:contentDescription="@string/ben3n"
+        app:srcCompat="@drawable/player_ground_c"/>
+
+
+
+</LinearLayout>

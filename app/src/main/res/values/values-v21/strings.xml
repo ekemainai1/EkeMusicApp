@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="editor_insert_song_failed">Error with saving songs</string>
+    <string name="editor_insert_song_successful">Songs saved</string>
+    <string name="songsnum">All Songs </string>
+    <string name="eke_DBLoad">Loading</string>
+    <string name="eke_LVLoad">ListView</string>
+    <string name="list_search">Search</string>
+    <string name="quit">Ekemainai Music Player</string>
+    <string name="really_quit">Are you sure you want to close this player?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="screen">Screen</string>
+    <string name="screen_background">Screen Background</string>
+    <string name="search_description">Search Songs</string>
+    <string name="add_song">Add to</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="artwork">Album</string>
+    <string name="share_me">Share</string>
+    <string name="delete_me">Delete</string>
+    <string name="empty_search">Search return zero songs</string>
+    <string name="select_buttons_color">Select Buttons Color</string>
+</resources>

@@ -1,0 +1,5 @@
+<!-- Default boolean values -->
+<resources>
+    <bool name="large_layout">false</bool>
+</resources>
+
