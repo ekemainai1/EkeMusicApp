@@ -13,6 +13,7 @@ public class EkeSearchEmpty {
 
     }
 
+    // Not
     public String getsTitle() {
         return sTitle;
     }
